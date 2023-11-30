@@ -1,11 +1,19 @@
 # README
 
-This repository uses the [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning) repository to perform fine-tuning and prediction on HPC resources. 
+## Introduction
+
+This repository contains two Jupyter notebooks which use resources from:
+- [LLaMA-Efficient-Tuning](https://github.com/hiyouga/LLaMA-Efficient-Tuning) for fine-tuning and predictions using HPC.
+- [Microsoft-Guidance](https://github.com/microsoft/Guidance) for applying guidance models.
 
 ## Usage
 
-1. Download the notebook by clicking on "Code" and selecting "Download ZIP"
-2. Open JupyterLab and import the downloaded notebook
-3. Follow the instructions in the notebook to perform training and prediction. You will need to provide a `train.json` and a `test.json` file according to the characteristics indicated in the notebook, and update the parameters according to the instructions provided
+To get started:
 
-The list of currently supported models can be found at the [LLaMA-Efficient-Tuning repository](https://github.com/hiyouga/LLaMA-Efficient-Tuning#supported-models).
+1. Download the repository by clicking "Code" > "Download ZIP".
+2. Open JupyterLab and import the notebooks from the downloaded ZIP file.
+3. Follow the instructions within each notebook.
+4. 
+## Acknowledgments
+
+Thanks to @sinking8 and @nikhil for updating dependencies and imports, contributing to the functionality of the code.
